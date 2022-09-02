@@ -14,7 +14,4 @@ sudo apt-get install python3.10-tk
 
 ### Solution
 
-$$
-\begin{cases} \dot y = y \\ \ddot y = -5y -10 \dot y + u
-\end{cases}
-$$
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
