@@ -18,7 +18,7 @@ sudo apt-get install python3.10-tk
 
 $$
 \begin{cases}
-x(t) = 3t
+x(t) = 3t \\
 y(t) = 4t^2+1
 \end{cases}
 $$
