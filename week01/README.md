@@ -2,21 +2,23 @@
 
 ## Initial step
 
-## Task 1
-
 ```shell
 sudo apt-get install python3.10-tk
 ```
 
+## Task 1
+
+![task 1](assets/img.png)
+
 ### Simulation
 
-<img src="task1.gif" alt="simulation 1">
+![simulation 1](task1.gif)
 
 ### Solution
 
 $$
-\begin{cases} 
-    \dot y = y \\ 
-    \ddot y = -5y -10 \dot y + u
+\begin{cases}
+x(t) = 3t
+y(t) = 4t^2+1
 \end{cases}
 $$
