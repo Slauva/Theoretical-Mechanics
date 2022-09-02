@@ -15,6 +15,8 @@ sudo apt-get install python3.10-tk
 ### Solution
 
 $$
-\begin{cases} \dot y = y \\ \ddot y = -5y -10 \dot y + u
+\begin{cases} 
+    \dot y = y \\ 
+    \ddot y = -5y -10 \dot y + u
 \end{cases}
 $$
