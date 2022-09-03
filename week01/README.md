@@ -34,21 +34,15 @@ $$
 $$
 
 $$
-\begin{equation}
-    v_x = \dot{x} = 3 \\
-    v_y = \dot{y} = 8t \\
-    \underline{\underline{\vec{v}}} = v_x \vec{i} + v_y \vec{j} = 3 \vec{i} + 8t \vec{j} = 
-        \underline{\underline{\begin{bmatrix} 3 \\ 8t \end{bmatrix}}}
-\end{equation}
+v_x = \dot{x} = 3 \\
+v_y = \dot{y} = 8t \\
+\underline{\underline{\vec{v}}} = v_x \vec{i} + v_y \vec{j} =  \underline{\underline{3 \vec{i} + 8t \vec{j}}}
 $$
 
 $$
-\begin{equation}
-    a_x = \ddot{x} = 0 \\
-    a_y = \ddot{y} = 8 \\
-    \underline{\underline{\vec{a}}} = a_x \vec{i} + a_y \vec{j} = 0 \vec{i} + 8 \vec{j} = 
-        \underline{\underline{\begin{bmatrix} 0 \\ 8 \end{bmatrix}}}
-\end{equation}
+a_x = \ddot{x} = 0 \\
+a_y = \ddot{y} = 8 \\
+\underline{\underline{\vec{a}}} = a_x \vec{i} + a_y \vec{j} =  \underline{\underline{0 \vec{i} + 8 \vec{j}}}
 $$
 
 $$
@@ -58,5 +52,4 @@ $$
 $$
 \underline{\underline{a_n}} = \sqrt{a^2-a_{\tau}^2} = \underline{\underline{\frac{24}{\sqrt{9+64t^2}}}}
 $$
-
 
