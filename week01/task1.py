@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import matplotlib
 from matplotlib.animation import FuncAnimation, PillowWriter
 
-matplotlib.use("TkAgg")
+matplotlib.use("TkAgg")  # Need to be installed tkinter
 
 
-def vector(point):
-    b, e = point
+def vector(vec):
+    b, e = vec
     return e - b
 
 
@@ -29,7 +29,6 @@ An = lambda t: np.array([P(t), P(t) + vector(A(t)) - vector(At(t))])
 
 plt.style.use("seaborn")
 fig, ax = plt.subplots()
-# ax.grid()
 
 parable, = ax.plot([X(i) for i in T], [Y(i) for i in T], 'r', label='y(x)=(4*x^2)/9+1')
 point, = ax.plot(1, 1, 'bo')
@@ -37,8 +36,10 @@ velocity, = ax.plot([], [], marker='.', label='velocity')
 acc, = ax.plot([], [], marker='.', label='acceleration')
 acc_t, = ax.plot([], [], marker='.', label='tangential acceleration component')
 acc_n, = ax.plot([], [], marker='.', label='normal acceleration component')
-hlegend = ax.legend(loc='upper right')
 
+ax.legend(loc='upper right')
+ax.set_xlabel("Axis x(t) = 3t")
+ax.set_ylabel("Axis y(t) = 4t^2 + 1")
 
 def animate(t):
     px, py = P(t)
