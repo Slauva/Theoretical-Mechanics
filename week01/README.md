@@ -1,11 +1,5 @@
 # Homework first week
 
-## Initial step
-
-```shell
-sudo apt-get install python3.10-tk
-```
-
 ## Task 1
 
 ![task 1](assets/img.png)
