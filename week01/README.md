@@ -227,7 +227,7 @@ a^{\tau}_b=\varepsilon_2R_2= \frac{6t*R_3R_2}{r_3r_2} \to a^{\tau}_b|_{t=2}=\fra
 $$
 
 $$
-\underline{\underline{a_b}}=\underline{\underline{\sqrt{(a^{\tau}_b)^2+(a^{n}_b)^2}}} \to \underline{\underline{a_b|_{t=2}}} = \underline{\underline{25.64}}
+\underline{\underline{a_b}}=\underline{\underline{\sqrt{(a^{\tau}_b)^2+(a^{n}_{b})^2}}} \to \underline{\underline{a_b|_{t=2}}} = \underline{\underline{25.64}}
 $$
 
 The module of linear velocities of points $B$ and $L$ are equal, point $L$ joined the small circle 1
