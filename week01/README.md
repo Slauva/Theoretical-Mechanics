@@ -172,7 +172,7 @@ At time point $t=2$
 
 #### Need find
 
-$v_a$, $v_c$, $v_a$, $a_b$, $a_4$
+$v_a$, $v_c$, $\varepsilon_3$, $a_b$, $a_4$
 
 ### Solution
 
@@ -202,7 +202,7 @@ $$
 \underline{\underline{v_c}}=w_3R_3=\underline{\underline{\frac{(3t^2-6)R_3}{r_3}}} \to v_c|_{t=2}=\underline{\underline{8}}
 $$
 
-The module of linear velocities of points $C$ and $K$ are equel, point $K$ joined the small circle 2
+The module of linear velocities of points $C$ and $K$ are equal, point $K$ joined the small circle 2
 
 $$
 |v_k|=|v_c| \to w_2r_2= \frac{(3t^2-6)R_3}{r_3} \to w_2 = \frac{(3t^2-6)R_3}{r_3r_2}
@@ -230,7 +230,7 @@ $$
 \underline{\underline{a_b}}=\underline{\underline{\sqrt{(a^{\tau}_b)^2+(a^{n}_b)^2}}} \to \underline{\underline{a_b|_{t=2}}} = \underline{\underline{25.64}}
 $$
 
-The module of linear velocities of points $B$ and $L$ are equel, point $L$ joined the small circle 1
+The module of linear velocities of points $B$ and $L$ are equal, point $L$ joined the small circle 1
 
 $$
 |v_l|=|v_b| \to w_1r_1= \frac{(3t^2-6)R_3R_2}{r_3r_2} \to w_2 = \frac{(3t^2-6)R_3R_2}{r_3r_2r_1}
@@ -250,7 +250,7 @@ $$
 a^{\tau}_a=\varepsilon_1R_1= \frac{6t*R_3R_2R_1}{r_3r_2r_1} \to a^{\tau}_b|_{t=2}=\frac{128}{3}
 $$
 
-The acceleraion of block 4 is equal of tangent acceleration component of point $A$
+The acceleration of block 4 is equal of tangent acceleration component of point $A$
 
 $$
 \underline{\underline{v_4}} = a^{\tau}_a \to \underline{\underline{v_4|_{t=2}}}=\underline{\underline{42.67}}
