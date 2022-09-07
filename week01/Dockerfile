@@ -20,7 +20,5 @@ EXPOSE 3000-8988
 COPY task1.py /app/
 COPY test.py /app/
 
-RUN export DISPLAY=localhost:0.0
-
 ENTRYPOINT [ "python3" ]
 CMD [ "task1.py" ]
