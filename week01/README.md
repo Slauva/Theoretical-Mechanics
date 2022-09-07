@@ -158,5 +158,101 @@ $$
 
 ![img.png](assets/task3.png)
 
+#### Given:
+
+Circle 1: $r_1=2$, $R_1=4$
+
+Circle 2: $r_2=6$, $R_2=8$
+
+Circle 3: $r_3=12$, $R_3=16$
+
+Block 5: $s_5(t)=t^3-6t$
+
+At time point $t=2$
+
+#### Need find
+
+$v_a$, $v_c$, $v_a$, $a_b$, $a_4$
+
 ### Solution
+
+At first we need find velocity and acceleration of block 5
+
+$$
+v_5=\dot{s_5}=3t^2-6
+$$
+
+$$
+a_5=\ddot{s_5}=6t
+$$
+
+Now we need to find angular velocity and acceleration of circle 3
+
+$$
+v_5=w_3r_3 \to w_3=\frac{3t^2-6}{r_3}|_{t=2}=\frac{1}{2}
+$$
+
+$$
+\underline{\underline{\varepsilon_3}}=\dot{w_3}=\underline{\underline{\frac{6t}{r_3}}} \to \varepsilon_3|_{t=2}=\underline{\underline{1}}
+$$
+
+Now we can find velocity at point $C$
+
+$$
+\underline{\underline{v_c}}=w_3R_3=\underline{\underline{\frac{(3t^2-6)R_3}{r_3}}} \to v_c|_{t=2}=\underline{\underline{8}}
+$$
+
+The module of linear velocities of points $C$ and $K$ are equel, point $K$ joined the small circle 2
+
+$$
+|v_k|=|v_c| \to w_2r_2= \frac{(3t^2-6)R_3}{r_3} \to w_2 = \frac{(3t^2-6)R_3}{r_3r_2}
+$$
+
+Now we can find velocity and acceleration at point $B$
+
+$$
+v_b=w_2R_2=\frac{(3t^2-6)R_3R_2}{r_3r_2}
+$$
+
+$$
+\varepsilon_2=\dot(w_2)=\frac{6t*R_3}{r_3r_2}
+$$
+
+$$
+a^{n}_b=w^2_2R_2= \frac{(3t^2-6)^2R_3^2R_2}{(r_3r_2)^2} \to a^{n}_b|_{t=2}=\frac{128}{9}
+$$
+
+$$
+a^{\tau}_b=\varepsilon_2R_2= \frac{6t*R_3R_2}{r_3r_2} \to a^{\tau}_b|_{t=2}=\frac{64}{3}
+$$
+
+$$
+\underline{\underline{a_b}}=\underline{\underline{\sqrt{(a^{\tau}_b)^2+(a^{n}_b)^2}}} \to \underline{\underline{a_b|_{t=2}}} = \underline{\underline{25.64}}
+$$
+
+The module of linear velocities of points $B$ and $L$ are equel, point $L$ joined the small circle 1
+
+$$
+|v_l|=|v_b| \to w_1r_1= \frac{(3t^2-6)R_3R_2}{r_3r_2} \to w_2 = \frac{(3t^2-6)R_3R_2}{r_3r_2r_1}
+$$
+
+Now we can find velocity and acceleration at point $A$
+
+$$
+\varepsilon_1=\dot(w_1)=\frac{6t*R_3R_2}{r_3r_2r_1}
+$$
+
+$$
+\underline{\underline{v_a}}=w_1R_1=\underline{\underline{\frac{(3t^2-6)R_3R_2R_1}{r_3r_2}}} \to \underline{\underline{v_a|_{t=2}}}=\underline{\underline{21.33}}
+$$
+
+$$
+a^{\tau}_a=\varepsilon_1R_1= \frac{6t*R_3R_2R_1}{r_3r_2r_1} \to a^{\tau}_b|_{t=2}=\frac{128}{3}
+$$
+
+The acceleraion of block 4 is equal of tangent acceleration component of point $A$
+
+$$
+\underline{\underline{v_4}} = a^{\tau}_a \to \underline{\underline{v_4|_{t=2}}}=\underline{\underline{42.67}}
+$$
 
