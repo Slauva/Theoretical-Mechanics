@@ -176,6 +176,8 @@ $v_a$, $v_c$, $\varepsilon_3$, $a_b$, $a_4$
 
 ### Solution
 
+![img.png](assets/solution3.png)
+
 At first we need find velocity and acceleration of block 5
 
 $$
