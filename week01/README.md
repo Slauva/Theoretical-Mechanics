@@ -247,7 +247,7 @@ $$
 $$
 
 $$
-a^{\tau}_a=\varepsilon_1R_1= \frac{6t*R_3R_2R_1}{r_3r_2r_1} \to a^{\tau}_b|_{t=2}=\frac{128}{3}
+a^{\tau}_a=\varepsilon_1R_1= \frac{6t*R_3R_2R_1}{r_3r_2r_1} \to a^{\tau}_a|_{t=2}=\frac{128}{3}
 $$
 
 The acceleration of block 4 is equal of tangent acceleration component of point $A$
