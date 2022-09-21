@@ -110,3 +110,13 @@ $$
 \overrightarrow{a^{cor}_M} = ||\overrightarrow{a^{cor}_M} = 0|| = \overrightarrow{a^{rel}_M} + \overrightarrow{a^{tr}_
 M}}}
 $$
+
+Lets calculate $t$ when $M$ reaches $O$ point:
+
+$$
+\theta(t)=2\pi * k \text{, where } k\in Z
+$$
+
+$$
+\underline{\underline{t = \sqrt{6k}}} \text{, where } k\in Z
+$$
