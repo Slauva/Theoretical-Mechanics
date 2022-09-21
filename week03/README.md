@@ -60,6 +60,8 @@ X_A = X_O +
 \end{bmatrix}
 $$
 
+Point $N$ is a center of the circle $D$
+
 $$
 X_N = X_O + 
 \begin{bmatrix} 
