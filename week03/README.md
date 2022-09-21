@@ -19,15 +19,15 @@ $$
 Now, we can calculate angular velocities and accelerations for $\phi(t)$ and $\theta(t)$:
 
 $$
-w_o(t) = \dot\phi = \frac{\pi*t^2}{2} \to \overrightarrow{w_o} = (0, 0, \pi*t^2 / 2)
+w_o(t) = \dot\phi = \frac{\pi * t^2}{2} \to \overrightarrow{w_o} = (0, 0, \pi * t^2 / 2)
 $$
 
 $$
-\varepsilon_o(t)=\ddot\phi = \pi*t \to \overrightarrow{\varepsilon_o} = (0,0,\pi*t)
+\varepsilon_o(t)=\ddot\phi = \pi * t \to \overrightarrow{\varepsilon_o} = (0,0,\pi * t)
 $$
 
 $$
-w_m(t) = \dot\theta = \frac{12\pi * t}{R} \to \overrightarrow{w_m} = (0, 0, \frac{12\pi*t}{R})
+w_m(t) = \dot\theta = \frac{12\pi * t}{R} \to \overrightarrow{w_m} = (0, 0, \frac{12\pi * t}{R})
 $$
 
 $$
