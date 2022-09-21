@@ -27,7 +27,7 @@ $$
 $$
 
 $$
-w_m(t) = \dot\theta = \frac{12\pi*t}{R} \to \overrightarrow{w_m} = (0, 0, \frac{12\pi*t}{R})
+w_m(t) = \dot\theta = \frac{12\pi * t}{R} \to \overrightarrow{w_m} = (0, 0, \frac{12\pi*t}{R})
 $$
 
 $$
@@ -37,9 +37,13 @@ $$
 Now, lets find the coordinates of points:
 
 $$
+r = O_1O = O_2A
+$$
+
+$$
 X_o = 
 \begin{bmatrix} 
-O_1Ocos(\phi(t)) \\
-O_1Osin(\phi(t))
+rcos(\phi(t)) \\
+rsin(\phi(t))
 \end{bmatrix}
 $$
