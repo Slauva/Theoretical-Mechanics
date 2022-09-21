@@ -45,9 +45,33 @@ r = O_1O = O_2A
 $$
 
 $$
-X_o = 
+X_O = 
 \begin{bmatrix} 
 rcos(\phi(t)) \\
 rsin(\phi(t))
+\end{bmatrix}
+$$
+
+$$
+X_A = X_O + 
+\begin{bmatrix} 
+2R \\
+0
+\end{bmatrix}
+$$
+
+$$
+X_N = X_O + 
+\begin{bmatrix} 
+R \\
+0
+\end{bmatrix}
+$$
+
+$$
+X_M = X_N + 
+\begin{bmatrix} 
+Rcos(\theta(t)) \\
+Rsin(\theta(t))
 \end{bmatrix}
 $$
