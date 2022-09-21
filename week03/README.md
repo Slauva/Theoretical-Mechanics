@@ -13,7 +13,11 @@
 From the given data we need eq-n of the arc length $OM = s_r(t) = 6\pi*t^2$ and transform this to angle eq-n:
 
 $$
-\theta(t)=\frac{s_r(t)}{R}
+\theta(t)=
+\begin{cases}
+-\frac{s_r(t)}{R} & 0 >= sin(\phi(t)) \\
+\frac{s_r(t)}{R} & overwise
+\end{cases}
 $$
 
 Now, we can calculate angular velocities and accelerations for $\phi(t)$ and $\theta(t)$:
