@@ -10,3 +10,4 @@ v.koshman@innopolis.university
 2. Week 3 - [link](week03/README.md)
 
 ## Research Homeworks
+1. Research 1 (Jupyter Notebook) - [link](research01/%20Homework%20Research%20%231%20Slava%20koshman.ipynb)
