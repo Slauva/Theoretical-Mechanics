@@ -133,7 +133,7 @@ $$
 
 ### Image
 
-![task2](assets/task2.jpg)
+![task2](assets/task3.jpg)
 
 ### Solution
 
