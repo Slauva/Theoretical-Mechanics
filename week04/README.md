@@ -154,11 +154,11 @@ Lets describe 6 eq-n for rigid body:
 >
 > oz: $R_1 + R_3 + R_5 + R_2 * \frac{c}{\sqrt{b^2 + c^2}} + R_4 * \frac{c}{\sqrt{a^2 + c^2}} + R_6 * \frac{c}{\sqrt{a^2 + c^2}} - G = 0$
 >
-> $M_x$: $-R_3 * b - R_5 * b - R_4 * b * \frac{c}{\sqrt{a^2 + c^2}} - G * \frac{b}{2} = 0$
+> $M^D_x$: $-R_3 * b - R_5 * b - R_4 * b * \frac{c}{\sqrt{a^2 + c^2}} - G * \frac{b}{2} = 0$
 >
-> $M_y$: $R_5 * a - G * \frac{a}{2} = 0$
+> $M^D_y$: $R_5 * a - G * \frac{a}{2} = 0$
 >
-> $M_z$: $-P * a - R_4 * b * \frac{a}{\sqrt{a^2 + c^2}} = 0$
+> $M^D_z$: $-P * a - R_4 * b * \frac{a}{\sqrt{a^2 + c^2}} = 0$
 
 Now we can find all undefind vars
 
