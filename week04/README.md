@@ -154,7 +154,7 @@ Lets describe 6 eq-n for rigid body:
 >
 > oz: $R_1 + R_3 + R_5 + R_2 * \frac{c}{\sqrt{b^2 + c^2}} + R_4 * \frac{c}{\sqrt{a^2 + c^2}} + R_6 * \frac{c}{\sqrt{a^2 + c^2}} - G = 0$
 >
-> $M_x$: $-R_3 * b - R_5 * b - R_4 * \frac{c}{\sqrt{a^2 + c^2}} = 0$
+> $M_x$: $-R_3 * b - R_5 * b - R_4 * b * \frac{c}{\sqrt{a^2 + c^2}} - G * \frac{b}{2} = 0$
 >
 > $M_y$: $R_5 * a - G * \frac{a}{2} = 0$
 >
@@ -163,19 +163,15 @@ Lets describe 6 eq-n for rigid body:
 Now we can find all undefind vars
 
 $$
-R_4 = -R_6
-$$
-
-$$
-R_2 = \frac{P * \sqrt{b^2 + c^2}}{b} = \frac{30 * \sqrt{4.5^2 + 3.5^2}}{4.5} = 38.00585
-$$
-
-$$
 R_5 = \frac{G}{2} = 9
 $$
 
 $$
-R_4 = \frac{-P * \sqrt{a^2 + c^2}}{b} = \frac{-30 * \sqrt{4^2 + 3.5^2}}{4.5} = -35.43382
+R_2 = \frac{P * \sqrt{b^2 + c^2}}{b} = \frac{30 * \sqrt{16 + 3.5^2}}{4.5} = 38.00585
+$$
+
+$$
+R_4 = \frac{-P * \sqrt{a^2 + c^2}}{b} = \frac{-30 * \sqrt{16 + 3.5^2}}{4.5} = -35.43382
 $$
 
 $$
@@ -183,28 +179,20 @@ R_6 = -R_4 = 35.43382
 $$
 
 $$
-R_3 = \frac{- R_5 * b - R_4 * \frac{c}{\sqrt{a^2 + c^2}}}{b} = \frac{-9 * 4.5 - 35.43382 * \frac{3.5}{\sqrt{16+3.5^2}}}{4.5} = -14.18519
+R_3 = -R_5 - R_4 * \frac{c}{\sqrt{a^2 + c^2}} - \frac{G}{2} = -9 + 35.43382 * \frac{3.5}{\sqrt{16 + 3.5^2}} - \frac{18}{2} = 5.33
 $$
 
 $$
-R_1 + R_3 + R_5 + R_2 * \frac{c}{\sqrt{b^2 + c^2}} + R_4 * \frac{c}{\sqrt{a^2 + c^2}} + R_6 * \frac{c}{\sqrt{a^2 + c^2}} - G = 0
-$$
-
-$$
-R_1 + R_3 + R_5 + R_2 * \frac{c}{\sqrt{b^2 + c^2}} - G = 0
-$$
-
-$$
-R_1 = G - R_3 - R_5 - R_2 * \frac{c}{\sqrt{b^2 + c^2}} = 18 + 14.18519 - 9 - 38.00585 * \frac{3.5}{\sqrt{4.5^2 + 3.5^2}} = 0.600385
+R_1 = G - R_3 - R_5 - R_2 * \frac{c}{\sqrt{b^2 + c^2}} = 18 - 9 - 5.33 - 38.00585 * \frac{3.5}{\sqrt{4.5^2 + 3.5^2}} = -19.66333
 $$
 
 ### Answer:
 
-> $R_1 = 0.600385$
+> $R_1 = -19.66333$
 >
 > $R_2 = 38.00585$
 >
-> $R_3 = -14.18519$
+> $R_3 = 5.33333$
 >
 > $R_4 = -35.43382$
 >
