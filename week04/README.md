@@ -152,8 +152,7 @@ Lets describe 6 eq-n for rigid body:
 >
 > oy: $P - R_2 * \frac{b}{\sqrt{b^2 + c^2}} = 0$
 >
-> oz: $R_1 + R_3 + R_5 + R_2 * \frac{c}{\sqrt{b^2 + c^2}} + R_4 * \frac{c}{\sqrt{a^2 + c^2}} + R_6 * \frac{c}{\sqrt{a^2
-+ c^2}} - G = 0$
+> oz: $R_1 + R_3 + R_5 + R_2 * \frac{c}{\sqrt{b^2 + c^2}} + R_4 * \frac{c}{\sqrt{a^2 + c^2}} + R_6 * \frac{c}{\sqrt{a^2 + c^2}} - G = 0$
 >
 > $M_x$: $-R_3 * b - R_5 * b - R_4 * \frac{c}{\sqrt{a^2 + c^2}} = 0$
 >
@@ -184,16 +183,19 @@ R_6 = -R_4 = 35.43382
 $$
 
 $$
-R_3 = \frac{- R_5 * b - R_4 * \frac{c}{\sqrt{a^2 + c^2}}}{b} = \frac{-9 * 4.5 - 35.43382 *
-\frac{3.5}{\sqrt{16+3.5^2}}}{4.5} = -14.18519
+R_3 = \frac{- R_5 * b - R_4 * \frac{c}{\sqrt{a^2 + c^2}}}{b} = \frac{-9 * 4.5 - 35.43382 * \frac{3.5}{\sqrt{16+3.5^2}}}{4.5} = -14.18519
 $$
 
 $$
-R_1 + R_3 + R_5 + R_2 * \frac{c}{\sqrt{b^2 + c^2}} + R_4 * \frac{c}{\sqrt{a^2 + c^2}} + R_6 * \frac{c}{\sqrt{a^2 + c^2}}
-- G = 0 \to \\
-R_1 + R_3 + R_5 + R_2 * \frac{c}{\sqrt{b^2 + c^2}} - G = 0 \to \\
-R_1 = G - R_3 - R_5 - R_2 * \frac{c}{\sqrt{b^2 + c^2}} = 18 + 14.18519 - 9 - 38.00585 * \frac{3.5}{\sqrt{4.5^2 + 3.5^2}}
-= 0.600385
+R_1 + R_3 + R_5 + R_2 * \frac{c}{\sqrt{b^2 + c^2}} + R_4 * \frac{c}{\sqrt{a^2 + c^2}} + R_6 * \frac{c}{\sqrt{a^2 + c^2}} - G = 0
+$$
+
+$$
+R_1 + R_3 + R_5 + R_2 * \frac{c}{\sqrt{b^2 + c^2}} - G = 0
+$$
+
+$$
+R_1 = G - R_3 - R_5 - R_2 * \frac{c}{\sqrt{b^2 + c^2}} = 18 + 14.18519 - 9 - 38.00585 * \frac{3.5}{\sqrt{4.5^2 + 3.5^2}} = 0.600385
 $$
 
 ### Answer:
