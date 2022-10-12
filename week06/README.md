@@ -89,3 +89,9 @@ $$v_b = 2l * \sqrt{\frac{gh}{l^2 + p^2}}$$
 2. Need to find the velocity when point B will be on half of $h$ from the floor, $cos(\theta) = \frac{h}{4l}, sin(\theta) = \sqrt{1 - \frac{h^2}{16l^2}}$
 
 $$v_b = \frac{1}{2} * \sqrt{\frac{gh(16l^2 - h^2)}{2(l^2 + p^2)}}$$
+
+### Answer
+
+1. $v_b = 2l * \sqrt{\frac{gh}{l^2 + p^2}}$
+
+2. $v_b = \frac{1}{2} * \sqrt{\frac{gh(16l^2 - h^2)}{2(l^2 + p^2)}}$
