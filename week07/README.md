@@ -41,7 +41,7 @@ $v^2_1 = \dot{x}^2 + \dot{\xi}^2 + 2 * \dot{x} * \dot{\xi} * cos(\beta)$
 
 #### Momentum of Inertion
 
-$J_3 = \frac{1}{2} \sum^n_{k=0}{m_kr^2_k} = r^2$
+$J_3 = \frac{1}{2} m_3 r^2_3 = r_3^2$
 
 #### Solution
 
@@ -62,3 +62,4 @@ $$\Pi_2 = - G_2 x sin(\alpha) = -15x$$
 $$\Pi_3 = - G_3 x sin(\alpha) = -10x$$
 
 $$\Pi = \Pi_1 + \Pi_2 + 2 \Pi_3 = -5 (x + \xi \sqrt{3}) - 35x$$
+
