@@ -63,3 +63,94 @@ $$\Pi_3 = - G_3 x sin(\alpha) = -10x$$
 
 $$\Pi = \Pi_1 + \Pi_2 + 2 \Pi_3 = -5 (x + \xi \sqrt{3}) - 35x$$
 
+To use the Euler-Lagrande eq-n we need to prepare the values and find work:
+
+$$\frac{\delta T}{\delta \dot{x}} = 10 \dot{x} + 0.5 \dot{\xi} \sqrt{3}$$
+
+$$\frac{\delta T}{\delta x} = 0$$
+
+$$\frac{\delta \Pi}{\delta x} = -40$$
+
+$$\frac{\delta T}{\delta \dot{\xi}} = \dot{\xi} + \dot{x} \frac{\sqrt{3}}{2}$$
+
+$$\frac{\delta T}{\delta \xi} = 0$$
+
+$$\frac{\delta \Pi}{\delta \xi} = -5 \sqrt{3}$$
+
+$$N_x = -R \dot{x} \to Q_x = \frac{N_x}{\dot{x}} = -R$$
+
+$$N_{\xi} = 0 \to Q_{\xi} = 0$$
+
+Now we can substitute the values to Euler-Lagrange eq-n:
+
+$$
+\begin{cases}
+\frac{d}{dt}(\frac{\delta T}{\delta \dot{x}}) - \frac{\delta T}{\delta x} = \frac{\delta \Pi}{\delta x} + Q_x \\
+\frac{d}{dt}(\frac{\delta T}{\delta \dot{\xi}}) - \frac{\delta T}{\delta \xi} = \frac{\delta \Pi}{\delta \xi} + Q_{\xi} \\
+\end{cases}
+$$
+
+$$
+\begin{cases}
+10 \ddot{x} + \frac{\sqrt{3}}{2} \ddot{\xi} - 0 = -40 + 0.001 \dot{x} \\
+\ddot{\xi} + \frac{\sqrt{3}}{2} \ddot{x} - 0 = -5 \sqrt{3} + 0 \\
+\end{cases}
+$$
+
+Lets express $\ddot{\xi}$ from the second eq-n and substitute to the first one to find $x$:
+
+$$\ddot{\xi} = -\frac{\sqrt{3}}{2} \ddot{x} -5 \sqrt{3}$$
+
+$$9.25 \ddot{x} - 0.001 \dot{x} + 32.5 = 0$$
+
+To solve the second order differential eq-n, lets substitute the constance: $a = 9.25$, $b = 0.001$, $c = 32.5$. At first step we need to substitute the $z = \dot{x}$, then $\dot{z} = \ddot{x}$:
+
+$$\int \frac{dz}{bz - c} = \int \frac{dt}{a} \to \dot{x} = K_1 e^{\frac{bt}{a}} + \frac{c}{b}$$
+
+Using the condition we can find the $K_1 = const$, where $t_0 = 0$ and $\dot{x_0} = 0$. So, we have that $K_1 = -\frac{c}{b}$:
+
+$$\dot{x} = - \frac{c}{b} e^{\frac{bt}{a}} + \frac{c}{b}$$
+
+Now we can find the displacement $x$:
+
+$$x = - \frac{ac}{b^2} e^{\frac{bt}{a}} + \frac{ct}{b} + K_2$$
+
+Using the condition we can find the $K_2 = const$, where $t_0 = 0$ and $x_0 = 0$. So, we have that $K_2 = \frac{ac}{b^2}$:
+
+$$x = - \frac{ac}{b^2} e^{\frac{bt}{a}} + \frac{ct}{b} + \frac{ac}{b^2}$$
+
+Now lets find the acceleration $\ddot{x}$ for $x$:
+
+$$\ddot{x} = - \frac{c}{a} e^{\frac{bt}{a}}$$
+
+Lets substitute the $\ddot{x}$ to eq-n of $\ddot{\xi}$, before it lets express numerical values to chars: $d = \frac{\sqrt{3}}{2}$, and $f = 5\sqrt{3}$:
+
+$$\ddot{\xi} = -f - d \ddot{x} = \frac{cd}{a} e^{\frac{bt}{a}} - f$$
+
+Lets differentiat this:
+
+$$\dot{\xi} = \frac{ad}{b} e^{\frac{bt}{a}} - ft + K_3$$
+
+Using the condition we can find the $K_3 = const$, where $t_0 = 0$ and $\dot{\xi_0} = 3$. So, we have that $K_2 = 3 - \frac{ad}{b}$:
+
+$$\dot{\xi} = \frac{ad}{b} e^{\frac{bt}{a}} - ft + (3 - \frac{ad}{b})$$
+
+Then:
+
+$$\xi = \frac{a^2d}{b^2} e^{\frac{bt}{a}} - \frac{ft^2}{2} + (3 - \frac{ad}{b})t + K_4$$
+
+Using the condition we can find the $K_4 = const$, where $t_0 = 0$ and $\xi_0 = 0$. So, we have that $K_4 = - \frac{a^2 d}{b^2}$:
+
+$$\xi = \frac{a^2d}{b^2} e^{\frac{bt}{a}} - \frac{ft^2}{2} + (3 - \frac{ad}{b})t + - \frac{a^2 d}{b^2}$$
+
+Lets substitute the values:
+
+$$x = 300625000 * (1 - e^{\frac{t}{9250}}) + 32500 t$$
+
+$$\xi = 42781250 \sqrt{3} (e^{\frac{t}{9250}} - 1) - 2.5 \sqrt{3} t^2 + (3 - 4625 \sqrt{3})$$
+
+#### Answer:
+
+$$x = 300625000 * (1 - e^{\frac{t}{9250}}) + 32500 t$$
+
+$$\xi = 42781250 \sqrt{3} (e^{\frac{t}{9250}} - 1) - 2.5 \sqrt{3} t^2 + (3 - 4625 \sqrt{3})$$
