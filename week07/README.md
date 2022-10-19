@@ -2,6 +2,10 @@
 
 ### Simulation
 
+![img.png](assets/simulation.png)
+
+[code](Solution.ipynb)
+
 ### Task
 
 ![img.png](assets/task1.png)
