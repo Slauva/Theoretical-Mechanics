@@ -15,3 +15,4 @@ v.koshman@innopolis.university
 
 ## Research Homeworks
 1. Research 1 (Jupyter Notebook) - [link](research01/%20Homework%20Research%20%231%20Slava%20koshman.ipynb)
+1. Research 2 - [link](research02)
