@@ -72,7 +72,7 @@ def capture(filename: str, show_video: bool = False) -> Tuple[List[float], List[
             cv2.drawContours(resize, [c], 0, (0, 255, 0), 3)
             cv2.circle(resize, (cX, cY), 7, (0, 0, 255), -1)
 
-            # Display the resulting frame
+            # Display the resulting frameq
             cv2.imshow('Frame', resize)
             # Press Q on keyboard to  exit
             if cv2.waitKey(25) & 0xFF == ord('q'):
